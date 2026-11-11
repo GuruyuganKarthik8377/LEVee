@@ -1,10 +1,9 @@
 import { createHash } from "node:crypto";
 import Anthropic from "@anthropic-ai/sdk";
 import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
-import sharp from "sharp";
 import { z } from "zod";
 import { runChecks, verdictFrom, type ImageRegistry, type ProofCheck, type SeenImage, type Verdict } from "./checks.ts";
-import { analyzePhoto, sha256, type PhotoFacts, type ProofPack } from "./proof.ts";
+import { analyzePhoto, loadSharp, sha256, type PhotoFacts, type ProofPack } from "./proof.ts";
 
 import { MODEL } from "../narrator/model.ts";
 const MAX_IMAGES = 10;
@@ -128,7 +127,7 @@ function checksFromJudgment(pack: ProofPack, judgment: Judgment): ProofCheck[] {
   return checks;
 }
 
-const shrink = (bytes: Buffer) => sharp(bytes).rotate().resize(IMAGE_LONGEST_SIDE, IMAGE_LONGEST_SIDE, { fit: "inside", withoutEnlargement: true }).jpeg({ quality: 80 }).toBuffer();
+const shrink = async (bytes: Buffer) => (await loadSharp())(bytes).rotate().resize(IMAGE_LONGEST_SIDE, IMAGE_LONGEST_SIDE, { fit: "inside", withoutEnlargement: true }).jpeg({ quality: 80 }).toBuffer();
 
 export type VerifierDeps = { registry: ImageRegistry; usdPerUnit: Record<string, number>; client?: Anthropic };
 

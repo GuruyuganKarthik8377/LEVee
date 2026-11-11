@@ -1,7 +1,6 @@
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import exifr from "exifr";
-import sharp from "sharp";
 
 export type Money = { currency_code: string; value: string };
 
@@ -32,10 +31,15 @@ export type PhotoFacts = {
   software: string | null;
 };
 
+// sharp is a native image library. It loads only when a photo is checked, so a server without it still runs every other route.
+let sharpModule: Promise<typeof import("sharp")> | undefined;
+export const loadSharp = async () => (await (sharpModule ??= import("sharp"))).default;
+
 export const sha256 = (bytes: Buffer) => createHash("sha256").update(bytes).digest("hex");
 
 // A fingerprint of the picture itself, so a resized or re-saved copy still matches when its bytes don't.
 export async function differenceHash(bytes: Buffer): Promise<string> {
+  const sharp = await loadSharp();
   const pixels = await sharp(bytes).rotate().greyscale().resize(9, 8, { fit: "fill" }).raw().toBuffer();
   let hash = 0n;
   for (let y = 0; y < 8; y++) for (let x = 0; x < 8; x++) hash = (hash << 1n) | (pixels[y * 9 + x] > pixels[y * 9 + x + 1] ? 1n : 0n);
