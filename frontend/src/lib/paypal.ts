@@ -23,9 +23,21 @@ async function oauth(params: Record<string, string>) {
   return (await res.json()) as { access_token: string };
 }
 
-/** The browser-safe token that JS SDK v6 is created with. */
+/**
+ * The browser-safe token that JS SDK v6 is created with. PayPal ties it to the site's domain (domains[]), taken from
+ * LEVEE_BASE_URL once the site is deployed. On localhost PayPal accepts the token without one.
+ */
 export async function browserClientToken() {
-  return (await oauth({ response_type: "client_token" })).access_token;
+  return (await oauth({ response_type: "client_token", ...siteDomain() })).access_token;
+}
+
+function siteDomain(): Record<string, string> {
+  try {
+    const host = new URL(process.env.LEVEE_BASE_URL ?? "").hostname;
+    return host && host !== "localhost" && host !== "127.0.0.1" ? { "domains[]": host } : {};
+  } catch {
+    return {};
+  }
 }
 
 async function vaultPost<T>(path: string, body: unknown) {

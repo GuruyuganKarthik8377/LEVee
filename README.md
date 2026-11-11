@@ -193,6 +193,7 @@ LEVee/
 │       ├── server/          connects the API routes to the backend; accounts and storage
 │       └── lib/             shared helpers, including the PayPal calls the website makes
 ├── supabase/migrations/     database tables and account profiles
+├── DEPLOY.md                deploying on Vercel
 └── docs/screenshots/        the images in this README
 ```
 
@@ -228,6 +229,8 @@ The site opens with **no keys at all**: the pages stay open without accounts, pa
 | `backend/agents/.env` | `backend/agents/.env.example` | Anthropic API key |
 
 For accounts, run the two SQL files in `supabase/migrations/` in your Supabase project's SQL editor.
+
+**Deploying:** LEVee deploys to Vercel as one project. Follow [`DEPLOY.md`](DEPLOY.md).
 
 **Pages worth opening**
 
