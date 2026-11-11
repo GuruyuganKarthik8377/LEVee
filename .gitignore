@@ -1,0 +1,18 @@
+# Installed packages and build output
+node_modules/
+.next/
+*.tsbuildinfo
+
+# Keys: never commit these
+.env
+.env.local
+.env.*.local
+
+# Local tools and system files
+.claude/
+.DS_Store
+
+# Editors and logs
+.vscode/
+.idea/
+*.log

@@ -1,0 +1,29 @@
+{
+  "name": "levee-agents",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.ts",
+    "typecheck": "tsc",
+    "capture-remal": "node scripts/capture-remal.ts",
+    "sentinel": "node --env-file-if-exists=.env scripts/sentinel.ts",
+    "verifier": "node --env-file-if-exists=.env scripts/verifier.ts",
+    "make-sample-proof": "node scripts/make-sample-proof.ts",
+    "concierge": "node --env-file-if-exists=.env scripts/concierge.ts",
+    "narrator": "node --env-file-if-exists=.env --env-file=../payments/.env scripts/narrator.ts",
+    "allocator": "node --env-file-if-exists=.env scripts/allocator.ts",
+    "pipeline": "node --env-file-if-exists=.env --env-file=../payments/.env scripts/pipeline.ts",
+    "capture-helene": "node scripts/capture-helene.ts",
+    "helene": "node --env-file-if-exists=.env --env-file=../payments/.env scripts/helene.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.4.0",
+    "exifr": "^7.1.3",
+    "sharp": "^0.35.5",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^7.0.2"
+  }
+}

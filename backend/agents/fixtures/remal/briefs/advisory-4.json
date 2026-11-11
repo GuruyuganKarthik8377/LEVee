@@ -1,0 +1,262 @@
+{
+  "brief": {
+    "eventId": 1001064,
+    "eventName": "REMAL-24",
+    "asOf": "2024-05-26T06:00:00.000Z",
+    "mode": "replay",
+    "alertLevel": "Orange",
+    "windKmh": 102,
+    "landfall": {
+      "etaUtc": "2024-05-26T18:55:23.076Z",
+      "lat": 21.8,
+      "lon": 88.93,
+      "leadHours": 12.9,
+      "regionId": "bay-of-bengal-north"
+    },
+    "trackShiftKm": 10.3,
+    "maxTrackShiftKm": 65,
+    "confidence": 82,
+    "sourcesAgree": "agree",
+    "summary": "Four consistent forecast advisories and many independent news reports agree that Cyclone Remal will make landfall on the West Bengal and Bangladesh coast near the Sundarbans around 19:00 UTC on 26 May, about 13 hours from now. The main gaps are the lack of river forecasts and a GDACS wind and alert value that was revised after the event.",
+    "reasons": [
+      {
+        "text": "All four advisories send the storm north into the northern Bay of Bengal, with computed landfall near 21.8N 88.93E around 18:55 UTC on 26 May, and the latest update moved the track only 10.3 km and the timing 1.1 hours earlier.",
+        "sources": [
+          {
+            "id": "gdacs-advisory-1",
+            "label": "GDACS advisory issued 2024-05-25T12:00:00.000Z",
+            "url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001064&episodeid=1"
+          },
+          {
+            "id": "gdacs-advisory-2",
+            "label": "GDACS advisory issued 2024-05-25T18:00:00.000Z",
+            "url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001064&episodeid=2"
+          },
+          {
+            "id": "gdacs-advisory-3",
+            "label": "GDACS advisory issued 2024-05-26T00:00:00.000Z",
+            "url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001064&episodeid=3"
+          },
+          {
+            "id": "gdacs-advisory-4",
+            "label": "GDACS advisory issued 2024-05-26T06:00:00.000Z",
+            "url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001064&episodeid=4"
+          }
+        ]
+      },
+      {
+        "text": "Earlier advisories shifted the track west by up to 65 km, from about 89.4E to 88.9E. That moves the core toward the India-Bangladesh border Sundarbans but keeps both the West Bengal and Bangladesh coasts exposed, so it changes little about who is at risk.",
+        "sources": [
+          {
+            "id": "gdacs-advisory-1",
+            "label": "GDACS advisory issued 2024-05-25T12:00:00.000Z",
+            "url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001064&episodeid=1"
+          },
+          {
+            "id": "gdacs-advisory-3",
+            "label": "GDACS advisory issued 2024-05-26T00:00:00.000Z",
+            "url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001064&episodeid=3"
+          },
+          {
+            "id": "gdacs-advisory-4",
+            "label": "GDACS advisory issued 2024-05-26T06:00:00.000Z",
+            "url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001064&episodeid=4"
+          }
+        ]
+      },
+      {
+        "text": "Independent news outlets report the storm has intensified into a severe cyclonic storm due to hit the Bengal and Bangladesh coasts tonight, with evacuations under way and Kolkata flights suspended.",
+        "sources": [
+          {
+            "id": "news-10",
+            "label": "HindustanTimes: Evacuations on as Cyclone Remal set to make landfall",
+            "url": "https://www.hindustantimes.com/india-news/evacuations-on-as-cyclone-remal-set-to-make-landfall-101716662639045.html"
+          },
+          {
+            "id": "news-12",
+            "label": "HindustanTimes: Cyclone Remal to make landfall tonight; Bengal, northeast on high alert: Updates",
+            "url": "https://www.hindustantimes.com/india-news/cyclone-remal-to-make-landfall-tonight-at-135-kmph-bengal-northeast-and-bangladesh-on-high-alert-kolkata-flghts-101716682981486.html"
+          },
+          {
+            "id": "news-14",
+            "label": "economictimes: Cyclone Remal to make landfall tonight with 135 kmph winds, coastal areas of Bengal and Bangladesh on high alert",
+            "url": "https://economictimes.indiatimes.com/news/india/cyclone-remal-to-make-landfall-tonight-with-135-kmph-winds-coastal-areas-on-high-alert/articleshow/110432069.cms"
+          },
+          {
+            "id": "news-16",
+            "label": "HindustanTimes: Cyclone 'Remal' intensifies into severe cyclonic storm; to hit Bengal, B'desh coasts Sunday night",
+            "url": "https://www.hindustantimes.com/india-news/cyclone-remal-intensifies-into-severe-cyclonic-storm-to-hit-bengal-b-desh-coasts-sunday-night-101716693757561.html"
+          },
+          {
+            "id": "news-8",
+            "label": "khaleejtimes: India: Flight operations suspended in Kolkata over Cyclone Remal",
+            "url": "https://www.khaleejtimes.com/world/india-flight-operations-suspended-in-kolkata-over-cyclone-remal"
+          }
+        ]
+      },
+      {
+        "text": "GDACS rates the event Orange with 102 km/h winds, which supports damaging impact, but these are final values reprocessed in 2026 and may not match what was shown at the time.",
+        "sources": [
+          {
+            "id": "gdacs-event",
+            "label": "GDACS report: REMAL-24",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001064&eventtype=TC"
+          }
+        ]
+      },
+      {
+        "text": "No river forecasts are available, and the recent gauge readings are pre-storm and falling, so this data cannot show the scale of any coming flooding.",
+        "sources": [
+          {
+            "id": "river-khulna",
+            "label": "Open-Meteo river discharge: Khulna",
+            "url": "https://flood-api.open-meteo.com/v1/flood?latitude=22.82&longitude=89.55&daily=river_discharge,river_discharge_median,river_discharge_min,river_discharge_max&start_date=2024-05-15&end_date=2024-05-26"
+          },
+          {
+            "id": "river-barisal",
+            "label": "Open-Meteo river discharge: Barisal",
+            "url": "https://flood-api.open-meteo.com/v1/flood?latitude=22.7&longitude=90.37&daily=river_discharge,river_discharge_median,river_discharge_min,river_discharge_max&start_date=2024-05-15&end_date=2024-05-26"
+          },
+          {
+            "id": "river-meghna-at-chandpur",
+            "label": "Open-Meteo river discharge: Meghna at Chandpur",
+            "url": "https://flood-api.open-meteo.com/v1/flood?latitude=23.23&longitude=90.65&daily=river_discharge,river_discharge_median,river_discharge_min,river_discharge_max&start_date=2024-05-15&end_date=2024-05-26"
+          },
+          {
+            "id": "river-hooghly-at-kolkata",
+            "label": "Open-Meteo river discharge: Hooghly at Kolkata",
+            "url": "https://flood-api.open-meteo.com/v1/flood?latitude=22.57&longitude=88.36&daily=river_discharge,river_discharge_median,river_discharge_min,river_discharge_max&start_date=2024-05-15&end_date=2024-05-26"
+          }
+        ]
+      }
+    ],
+    "exposed": [
+      {
+        "place": "West Bengal coast (Sundarbans), India",
+        "why": "Advisories and news both point landfall at the Bengal coast tonight.",
+        "sources": [
+          {
+            "id": "gdacs-advisory-4",
+            "label": "GDACS advisory issued 2024-05-26T06:00:00.000Z",
+            "url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001064&episodeid=4"
+          },
+          {
+            "id": "news-12",
+            "label": "HindustanTimes: Cyclone Remal to make landfall tonight; Bengal, northeast on high alert: Updates",
+            "url": "https://www.hindustantimes.com/india-news/cyclone-remal-to-make-landfall-tonight-at-135-kmph-bengal-northeast-and-bangladesh-on-high-alert-kolkata-flghts-101716682981486.html"
+          },
+          {
+            "id": "news-19",
+            "label": "aninews: Cyclone 'Remal' to hit Bengal coast tonight, warning issued in Northeast region",
+            "url": "https://www.aninews.in/news/national/general-news/cyclone-remal-to-hit-bengal-coast-tonight-warning-issued-in-northeast-region20240526090554/"
+          },
+          {
+            "id": "news-20",
+            "label": "business-standard: Cyclone Remal intensifies into severe cyclonic storm, to hit Bengal tonight",
+            "url": "https://www.business-standard.com/india-news/cyclone-remal-intensifies-into-severe-cyclonic-storm-to-hit-bengal-tonight-124052600068_1.html"
+          }
+        ]
+      },
+      {
+        "place": "Coastal Bangladesh near Khulna",
+        "why": "Computed landfall near 21.8N 88.93E lies on this coast, and news names the Bangladesh coast.",
+        "sources": [
+          {
+            "id": "gdacs-advisory-4",
+            "label": "GDACS advisory issued 2024-05-26T06:00:00.000Z",
+            "url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001064&episodeid=4"
+          },
+          {
+            "id": "news-14",
+            "label": "economictimes: Cyclone Remal to make landfall tonight with 135 kmph winds, coastal areas of Bengal and Bangladesh on high alert",
+            "url": "https://economictimes.indiatimes.com/news/india/cyclone-remal-to-make-landfall-tonight-with-135-kmph-winds-coastal-areas-on-high-alert/articleshow/110432069.cms"
+          },
+          {
+            "id": "news-16",
+            "label": "HindustanTimes: Cyclone 'Remal' intensifies into severe cyclonic storm; to hit Bengal, B'desh coasts Sunday night",
+            "url": "https://www.hindustantimes.com/india-news/cyclone-remal-intensifies-into-severe-cyclonic-storm-to-hit-bengal-b-desh-coasts-sunday-night-101716693757561.html"
+          },
+          {
+            "id": "river-khulna",
+            "label": "Open-Meteo river discharge: Khulna",
+            "url": "https://flood-api.open-meteo.com/v1/flood?latitude=22.82&longitude=89.55&daily=river_discharge,river_discharge_median,river_discharge_min,river_discharge_max&start_date=2024-05-15&end_date=2024-05-26"
+          }
+        ]
+      },
+      {
+        "place": "Kolkata",
+        "why": "Flights are suspended and heavy rain and strong winds are forecast for the city.",
+        "sources": [
+          {
+            "id": "news-8",
+            "label": "khaleejtimes: India: Flight operations suspended in Kolkata over Cyclone Remal",
+            "url": "https://www.khaleejtimes.com/world/india-flight-operations-suspended-in-kolkata-over-cyclone-remal"
+          },
+          {
+            "id": "news-18",
+            "label": "timesnownews: Cyclone Remal Alert In Kolkata: 200mm Heavy Rainfall, Strong Winds To Disrupt Life; When Will Downpour End?",
+            "url": "https://www.timesnownews.com/kolkata/kolkata-cyclone-news-200mm-heavy-rainfall-strong-winds-to-disrupt-life-when-will-downpour-end-article-110432139"
+          },
+          {
+            "id": "river-hooghly-at-kolkata",
+            "label": "Open-Meteo river discharge: Hooghly at Kolkata",
+            "url": "https://flood-api.open-meteo.com/v1/flood?latitude=22.57&longitude=88.36&daily=river_discharge,river_discharge_median,river_discharge_min,river_discharge_max&start_date=2024-05-15&end_date=2024-05-26"
+          }
+        ]
+      },
+      {
+        "place": "Barisal region, Bangladesh",
+        "why": "The forecast track runs north just east of landfall across this part of the delta.",
+        "sources": [
+          {
+            "id": "gdacs-advisory-4",
+            "label": "GDACS advisory issued 2024-05-26T06:00:00.000Z",
+            "url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001064&episodeid=4"
+          },
+          {
+            "id": "river-barisal",
+            "label": "Open-Meteo river discharge: Barisal",
+            "url": "https://flood-api.open-meteo.com/v1/flood?latitude=22.7&longitude=90.37&daily=river_discharge,river_discharge_median,river_discharge_min,river_discharge_max&start_date=2024-05-15&end_date=2024-05-26"
+          }
+        ]
+      },
+      {
+        "place": "Northeast India",
+        "why": "News reports warnings in the Northeast as the storm moves inland.",
+        "sources": [
+          {
+            "id": "news-11",
+            "label": "livemint: Cyclone Remal to hit Bengal today: IMD issues severe warning in THESE states",
+            "url": "https://www.livemint.com/news/india/cyclone-remal-to-hit-bengal-today-imd-issues-severe-warning-flight-suspended-in-kolkata-10-points-11716684162761.html"
+          },
+          {
+            "id": "news-19",
+            "label": "aninews: Cyclone 'Remal' to hit Bengal coast tonight, warning issued in Northeast region",
+            "url": "https://www.aninews.in/news/national/general-news/cyclone-remal-to-hit-bengal-coast-tonight-warning-issued-in-northeast-region20240526090554/"
+          },
+          {
+            "id": "news-21",
+            "label": "latestly: India News | Cyclone 'Remal' to Hit Bengal Coast Tonight, Warning Issued in Northeast Region",
+            "url": "https://www.latestly.com/agency-news/india-news-cyclone-remal-to-hit-bengal-coast-tonight-warning-issued-in-northeast-region-5990665.html"
+          }
+        ]
+      }
+    ],
+    "caveats": [
+      "Replay of a past storm. GDACS last reprocessed this event on 2026-02-11, so its alert level and wind speed are final values, not necessarily what was shown at the time. Forecast tracks are as issued.",
+      "River forecasts as issued were not archived, so this replay has no river forecast: only readings from days already over."
+    ]
+  },
+  "audit": {
+    "agent": "sentinel",
+    "at": "2026-11-04T07:57:31.708Z",
+    "model": "claude-opus-5-5",
+    "messageId": "msg_011CghXmu9WqEfmvec6PUHJq",
+    "inputSha256": "c6c868df154b7b886c823810c7f3c43a12b7783e6efa0df3ee0aed251ed46190",
+    "input": "{\"asOf\":\"2024-05-26T06:00Z\",\"mode\":\"replay\",\"event\":{\"name\":\"REMAL-24\",\"alertLevel\":\"Orange\",\"windKmh\":102,\"countries\":[\"Bangladesh\",\"India\",\"Bhutan\"]},\"computedFacts\":{\"advisoryCount\":4,\"latestAdvisoryAt\":\"2024-05-26T06:00:00.000Z\",\"landfall\":{\"etaUtc\":\"2024-05-26T18:55:23.076Z\",\"lat\":21.8,\"lon\":88.93,\"leadHours\":12.9,\"regionId\":\"bay-of-bengal-north\"},\"trackShiftKm\":10.3,\"maxTrackShiftKm\":65,\"etaShiftHours\":-1.1,\"newsCount\":21,\"riverForecasts\":[]},\"caveats\":[\"Replay of a past storm. GDACS last reprocessed this event on 2026-02-11, so its alert level and wind speed are final values, not necessarily what was shown at the time. Forecast tracks are as issued.\",\"River forecasts as issued were not archived, so this replay has no river forecast: only readings from days already over.\"],\"advisoriesTotal\":4,\"advisories\":[{\"id\":\"gdacs-advisory-1\",\"issuedAt\":\"2024-05-25T12:00Z\",\"forecast\":[[\"2024-05-26T00:00Z\",20.1,89.4],[\"2024-05-26T12:00Z\",21.5,89.5],[\"2024-05-27T00:00Z\",22.9,89.8],[\"2024-05-27T12:00Z\",24,90.3]]},{\"id\":\"gdacs-advisory-2\",\"issuedAt\":\"2024-05-25T18:00Z\",\"forecast\":[[\"2024-05-26T06:00Z\",20.2,89],[\"2024-05-26T18:00Z\",21.6,89.1],[\"2024-05-27T06:00Z\",23,89.5],[\"2024-05-27T18:00Z\",24.2,90.6]]},{\"id\":\"gdacs-advisory-3\",\"issuedAt\":\"2024-05-26T00:00Z\",\"forecast\":[[\"2024-05-26T12:00Z\",20.8,88.9],[\"2024-05-27T00:00Z\",22.3,89.1],[\"2024-05-27T12:00Z\",23.5,89.9],[\"2024-05-28T00:00Z\",24.5,91.3]]},{\"id\":\"gdacs-advisory-4\",\"issuedAt\":\"2024-05-26T06:00Z\",\"forecast\":[[\"2024-05-26T18:00Z\",21.7,88.9],[\"2024-05-27T06:00Z\",23,89.3],[\"2024-05-27T18:00Z\",24.1,90.1]]}],\"rivers\":[{\"id\":\"river-khulna\",\"name\":\"Khulna\",\"recent\":[[\"2024-05-23\",3.24],[\"2024-05-24\",3.02],[\"2024-05-25\",2.91]],\"forecast\":[]},{\"id\":\"river-barisal\",\"name\":\"Barisal\",\"recent\":[[\"2024-05-23\",0.14],[\"2024-05-24\",0.11],[\"2024-05-25\",0.08]],\"forecast\":[]},{\"id\":\"river-meghna-at-chandpur\",\"name\":\"Meghna at Chandpur\",\"recent\":[[\"2024-05-23\",36.41],[\"2024-05-24\",34.89],[\"2024-05-25\",33.83]],\"forecast\":[]},{\"id\":\"river-hooghly-at-kolkata\",\"name\":\"Hooghly at Kolkata\",\"recent\":[[\"2024-05-23\",8.35],[\"2024-05-24\",3.59],[\"2024-05-25\",2.22]],\"forecast\":[]}],\"news\":{\"totalArticles\":21,\"shown\":19,\"items\":[{\"id\":\"news-1\",\"at\":\"2024-05-23T07:31Z\",\"source\":\"downtoearth\",\"title\":\"Cyclone Remal in making? Low-pressure area forms over Bay of Bengal\"},{\"id\":\"news-2\",\"at\":\"2024-05-24T07:06Z\",\"source\":\"downtoearth\",\"title\":\"Where will it land? Cyclone Remal may show unpredictable character, according to weather agencies\"},{\"id\":\"news-3\",\"at\":\"2024-05-25T15:20Z\",\"source\":\"india\",\"title\":\"Cyclone Remal Alert in West Bengal: List of Do's To Follow\"},{\"id\":\"news-4\",\"at\":\"2024-05-25T21:28Z\",\"source\":\"thecambodianews\",\"title\":\"Cyclone 'Remal' to make landfall in West Bengal on May 26, warning issued in Northeast region\"},{\"id\":\"news-6\",\"at\":\"2024-05-25T22:20Z\",\"source\":\"thecambodianews\",\"title\":\"\\\"We are fully prepared for cyclone Remal,\\\" says NDRF inspector\"},{\"id\":\"news-7\",\"at\":\"2024-05-25T22:24Z\",\"source\":\"nouvelles-du-monde\",\"title\":\"Où va-t-il atterrir ? Le cyclone Remal pourrait présenter un caractère imprévisible, selon les agences météorologiques\"},{\"id\":\"news-8\",\"at\":\"2024-05-25T22:26Z\",\"source\":\"khaleejtimes\",\"title\":\"India: Flight operations suspended in Kolkata over Cyclone Remal\"},{\"id\":\"news-9\",\"at\":\"2024-05-25T23:45Z\",\"source\":\"nouvelles-du-monde\",\"title\":\"Tout ce que vous devez savoir sur le cyclone Remal qui devrait atteindre le Bengale le 26 mai lors des élections\"},{\"id\":\"news-10\",\"at\":\"2024-05-26T01:30Z\",\"source\":\"HindustanTimes\",\"title\":\"Evacuations on as Cyclone Remal set to make landfall\"},{\"id\":\"news-11\",\"at\":\"2024-05-26T03:09Z\",\"source\":\"livemint\",\"title\":\"Cyclone Remal to hit Bengal today: IMD issues severe warning in THESE states\"},{\"id\":\"news-12\",\"at\":\"2024-05-26T03:29Z\",\"source\":\"HindustanTimes\",\"title\":\"Cyclone Remal to make landfall tonight; Bengal, northeast on high alert: Updates\"},{\"id\":\"news-13\",\"at\":\"2024-05-26T04:59Z\",\"source\":\"thestatesman\",\"title\":\"ER prepares to tackle cyclone Remal\"},{\"id\":\"news-14\",\"at\":\"2024-05-26T05:00Z\",\"source\":\"economictimes\",\"title\":\"Cyclone Remal to make landfall tonight with 135 kmph winds, coastal areas of Bengal and Bangladesh on high alert\"},{\"id\":\"news-16\",\"at\":\"2024-05-26T05:24Z\",\"source\":\"HindustanTimes\",\"title\":\"Cyclone 'Remal' intensifies into severe cyclonic storm; to hit Bengal, B'desh coasts Sunday night\"},{\"id\":\"news-17\",\"at\":\"2024-05-26T05:26Z\",\"source\":\"latestly\",\"title\":\"India News | Cyclone 'Remal' Intensifies into Severe Cyclonic Storm; to Hit Bengal, B'desh Coasts Sunday Night\"},{\"id\":\"news-18\",\"at\":\"2024-05-26T05:32Z\",\"source\":\"timesnownews\",\"title\":\"Cyclone Remal Alert In Kolkata: 200mm Heavy Rainfall, Strong Winds To Disrupt Life; When Will Downpour End?\"},{\"id\":\"news-19\",\"at\":\"2024-05-26T05:44Z\",\"source\":\"aninews\",\"title\":\"Cyclone 'Remal' to hit Bengal coast tonight, warning issued in Northeast region\"},{\"id\":\"news-20\",\"at\":\"2024-05-26T05:52Z\",\"source\":\"business-standard\",\"title\":\"Cyclone Remal intensifies into severe cyclonic storm, to hit Bengal tonight\"},{\"id\":\"news-21\",\"at\":\"2024-05-26T05:58Z\",\"source\":\"latestly\",\"title\":\"India News | Cyclone 'Remal' to Hit Bengal Coast Tonight, Warning Issued in Northeast Region\"}]}}",
+    "usage": {
+      "inputTokens": 4229,
+      "outputTokens": 1852
+    }
+  }
+}

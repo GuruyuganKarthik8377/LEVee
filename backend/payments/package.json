@@ -1,0 +1,27 @@
+{
+  "name": "levee-payments",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.ts",
+    "typecheck": "tsc",
+    "vault-save": "node --env-file=.env scripts/vault-save.ts",
+    "charge": "node --env-file=.env scripts/charge.ts",
+    "payout": "node --env-file=.env scripts/payout.ts",
+    "failures": "node --env-file=.env scripts/failures.ts",
+    "regression": "node --env-file=.env scripts/regression.ts",
+    "refund": "node --env-file=.env scripts/refund.ts",
+    "invoice": "node --env-file=.env scripts/invoice.ts",
+    "reserve-setup": "node --env-file=.env scripts/reserve-setup.ts",
+    "reserve-subscribe": "node --env-file=.env scripts/reserve-subscribe.ts",
+    "webhook-server": "node --env-file=.env scripts/webhook-server.ts",
+    "webhook-register": "node --env-file=.env scripts/webhook-register.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  },
+  "dependencies": {
+    "@paypal/agent-toolkit": "^1.11.0"
+  }
+}

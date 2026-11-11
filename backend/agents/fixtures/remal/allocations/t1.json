@@ -1,0 +1,30 @@
+{
+  "proposal": [
+    {
+      "partnerId": "partner-a",
+      "shareBps": 6200,
+      "rationale": "Partner A is closer to the forecast landfall at 97 km near the exposed Khulna and Sundarbans areas, reports serving more households (1200) with evacuation transport and food and water, and has the larger remaining capacity of $2000."
+    },
+    {
+      "partnerId": "partner-b",
+      "shareBps": 3800,
+      "rationale": "Partner B is farther from the forecast landfall at 148 km but near exposed Barisal, and a meaningful share spreads risk given the 54.7 km track shift while supporting its reported 800 households within its $1500 remaining capacity."
+    }
+  ],
+  "summary": "The tranche favours Partner A for its closer position to landfall, larger reported reach and greater capacity, while keeping a substantial share with Partner B to hedge against the 54.7 km track shift; no other active storms affect the split.",
+  "source": "claude",
+  "excluded": [],
+  "audit": {
+    "agent": "allocator",
+    "at": "2026-11-04T09:11:36.487Z",
+    "inputSha256": "4e94d9b5165507dac53bb6e9f9c95ad326485deda1104a873f57184f9fbcc76c",
+    "llm": {
+      "model": "claude-opus-5-5",
+      "messageId": "msg_011CghdSy3qkgEr8ehzqJmuU",
+      "usage": {
+        "inputTokens": 1102,
+        "outputTokens": 299
+      }
+    }
+  }
+}

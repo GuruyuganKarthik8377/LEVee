@@ -1,0 +1,42 @@
+[
+  {
+    "id": "partner-a",
+    "name": "Partner A",
+    "regionId": "us-gulf-coast",
+    "area": {
+      "name": "Perry, FL",
+      "lat": 30.12,
+      "lon": -83.58
+    },
+    "earlyActions": [
+      "Move households to shelters",
+      "Pre-position food and water"
+    ],
+    "households": 1200,
+    "capacityUsd": 2000,
+    "committedUsd": 0,
+    "sample": true,
+    "radiusKm": 150,
+    "utcOffsetMinutes": -240
+  },
+  {
+    "id": "partner-b",
+    "name": "Partner B",
+    "regionId": "us-gulf-coast",
+    "area": {
+      "name": "Valdosta, GA",
+      "lat": 30.83,
+      "lon": -83.28
+    },
+    "earlyActions": [
+      "Secure drinking water",
+      "Fuel for evacuation transport"
+    ],
+    "households": 800,
+    "capacityUsd": 1500,
+    "committedUsd": 0,
+    "sample": true,
+    "radiusKm": 150,
+    "utcOffsetMinutes": -240
+  }
+]

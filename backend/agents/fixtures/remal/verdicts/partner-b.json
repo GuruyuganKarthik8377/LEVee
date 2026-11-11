@@ -1,0 +1,150 @@
+{
+  "partnerId": "partner-b",
+  "eventKey": "remal-2024",
+  "verdict": "human",
+  "summary": "Sent to a person to review: no photo was used before (photo-2 matches old-photo-1 (partner-c, earlier-storm-2020)).",
+  "checks": [
+    {
+      "rule": "Photos can be read",
+      "required": "at least one, all readable",
+      "actual": "2 of 2",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "No photo appears twice in this pack",
+      "required": "none",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "No photo was used before",
+      "required": "none",
+      "actual": "photo-2 matches old-photo-1 (partner-c, earlier-storm-2020)",
+      "passed": false,
+      "severity": "integrity"
+    },
+    {
+      "rule": "No photo went through editing software",
+      "required": "none",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "Photos taken after funds arrived and before landfall",
+      "required": "2024-05-26T01:00:00.000Z to 2024-05-26T18:30:00.000Z",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "Photos carry a timestamp",
+      "required": "all",
+      "actual": "2 of 2",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "Photos taken in the partner's service area",
+      "required": "within 150 km of Patuakhali",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "Photos carry a location",
+      "required": "all",
+      "actual": "1 of 2",
+      "passed": false,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "No receipt appears twice",
+      "required": "none",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "No receipt was used before",
+      "required": "none",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "Receipts dated after funds arrived and before landfall",
+      "required": "2024-05-26 to 2024-05-27",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "Receipts in a currency Levee can convert",
+      "required": "all",
+      "actual": "all",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "Receipts account for the money received",
+      "required": "80% to 125% of $458.00",
+      "actual": "$435.90, 95%",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "A distribution list is included",
+      "required": "at least one row",
+      "actual": "100 rows",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "No more handed out than was bought",
+      "required": "none over",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "Most of what was bought was handed out",
+      "required": "80% of each item",
+      "actual": "none",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "No household listed twice for the same item",
+      "required": "none",
+      "actual": "none",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "Handouts dated after funds arrived and before landfall",
+      "required": "2024-05-26 to 2024-05-27",
+      "actual": "0 outside",
+      "passed": true,
+      "severity": "integrity"
+    }
+  ],
+  "concerns": [],
+  "photoFindings": [],
+  "caveats": [
+    "Sample proof pack: its photos are labelled placeholders, not photographs."
+  ],
+  "audit": {
+    "agent": "verifier",
+    "at": "2026-11-04T08:34:42.878Z",
+    "imagesSha256": [
+      "9cd4a7b74ac542154a848e4825cc90ebcf3c8c6e98893775a347e866a0c1ea41",
+      "cc4ca2b73a78ab7f2c8c58474e6e6a2d28a7c7d23caa84df5ee24b168bd56a52",
+      "d0934976ca6fbb9beb5e990aba952222f4fc85717107cb411bcd988ffa85b442",
+      "8fd86e9a9e9e7938dbc93b356b1605dc1203a33f409c96f91792110def3bda80"
+    ],
+    "llm": null
+  }
+}

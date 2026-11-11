@@ -1,0 +1,221 @@
+{
+  "partnerId": "partner-a",
+  "eventKey": "remal-2024",
+  "verdict": "pass",
+  "summary": "Both receipts are readable, dated the day of landfall, and their item quantities and line arithmetic (60 rice sacks, 40 tarpaulins) match the entered receipts and the distribution record. The photo labels each describe the activity claimed in their captions, and together the images support the partner's account.",
+  "checks": [
+    {
+      "rule": "Photos can be read",
+      "required": "at least one, all readable",
+      "actual": "3 of 3",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "No photo appears twice in this pack",
+      "required": "none",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "No photo was used before",
+      "required": "none",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "No photo went through editing software",
+      "required": "none",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "Photos taken after funds arrived and before landfall",
+      "required": "2024-05-26T01:00:00.000Z to 2024-05-26T18:30:00.000Z",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "Photos carry a timestamp",
+      "required": "all",
+      "actual": "3 of 3",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "Photos taken in the partner's service area",
+      "required": "within 150 km of Mongla, Bagerhat",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "Photos carry a location",
+      "required": "all",
+      "actual": "3 of 3",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "No receipt appears twice",
+      "required": "none",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "No receipt was used before",
+      "required": "none",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "Receipts dated after funds arrived and before landfall",
+      "required": "2024-05-26 to 2024-05-27",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "Receipts in a currency Levee can convert",
+      "required": "all",
+      "actual": "all",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "Receipts account for the money received",
+      "required": "80% to 125% of $458.00",
+      "actual": "$435.90, 95%",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "A distribution list is included",
+      "required": "at least one row",
+      "actual": "100 rows",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "No more handed out than was bought",
+      "required": "none over",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "Most of what was bought was handed out",
+      "required": "80% of each item",
+      "actual": "none",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "No household listed twice for the same item",
+      "required": "none",
+      "actual": "none",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "Handouts dated after funds arrived and before landfall",
+      "required": "2024-05-26 to 2024-05-27",
+      "actual": "0 outside",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "Receipt images can be read",
+      "required": "all",
+      "actual": "all",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "Receipt images match what the partner entered",
+      "required": "total, currency and date",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "No photo looks edited",
+      "required": "none",
+      "actual": "none",
+      "passed": true,
+      "severity": "integrity"
+    },
+    {
+      "rule": "Photos show the claimed activity",
+      "required": "all",
+      "actual": "none",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "Pack hangs together as a whole",
+      "required": "consistent",
+      "actual": "consistent",
+      "passed": true,
+      "severity": "incomplete"
+    },
+    {
+      "rule": "Every image was reviewed",
+      "required": "10 images at most",
+      "actual": "5 of 5",
+      "passed": true,
+      "severity": "incomplete"
+    }
+  ],
+  "concerns": [],
+  "photoFindings": [
+    {
+      "id": "photo-1",
+      "showsClaimedActivity": "yes",
+      "looksEdited": false,
+      "note": "The placeholder label describes rice sacks handed out at Mongla, matching the caption."
+    },
+    {
+      "id": "photo-2",
+      "showsClaimedActivity": "yes",
+      "looksEdited": false,
+      "note": "The placeholder label describes tarpaulins handed out to households, matching the caption."
+    },
+    {
+      "id": "photo-3",
+      "showsClaimedActivity": "yes",
+      "looksEdited": false,
+      "note": "The placeholder label describes families moving to the Mongla shelter, matching the caption."
+    }
+  ],
+  "caveats": [
+    "Sample proof pack: its photos are labelled placeholders, not photographs."
+  ],
+  "audit": {
+    "agent": "verifier",
+    "at": "2026-11-04T08:34:42.868Z",
+    "imagesSha256": [
+      "a8e6364a363522344b9d83a117e70cbaa93f23584d0bf21297a2ee736e6e6f0b",
+      "5fceac2febcb26f02fe6f9fea1b97ba6d964f6806b549a71ab2a4cd32ec7699f",
+      "22e0c603b65ec433aa4fefbc2992a4cff450107dd7e7f738591e4b31d36e92c9",
+      "f1f5eea126ab0276854fc1973e7afb8de69472ae4f7e7d1595871839c95c43ab",
+      "9a90a104f2cfca123b040eba838db6df971c2bbb4f845851ee9b218ff97fea86"
+    ],
+    "llm": {
+      "model": "claude-opus-5-5",
+      "messageId": "msg_011CghadCeL4PEdLYq3ErMSX",
+      "inputSha256": "f7bbd991cd3ca57c2dd7e7862460e34b61689fb8dac3074c51e27907abbc7578",
+      "input": "{\"partnerServiceArea\":\"Mongla, Bagerhat\",\"amountReceived\":{\"currency_code\":\"USD\",\"value\":\"458.00\"},\"window\":{\"fundsReceivedAt\":\"2024-05-26T01:00:00.000Z\",\"landfallAt\":\"2024-05-26T18:30:00.000Z\"},\"photos\":[{\"id\":\"photo-1\",\"caption\":\"Rice sacks handed out at Mongla\"},{\"id\":\"photo-2\",\"caption\":\"Tarpaulins handed out to households\"},{\"id\":\"photo-3\",\"caption\":\"Families moving to the Mongla shelter\"}],\"receiptsAsEntered\":[{\"id\":\"receipt-1\",\"vendor\":\"Coastal Traders\",\"item\":\"rice sack\",\"quantity\":60},{\"id\":\"receipt-2\",\"vendor\":\"Delta Supply\",\"item\":\"tarpaulin\",\"quantity\":40}],\"distributed\":[{\"item\":\"rice sack\",\"quantity\":60,\"households\":60},{\"item\":\"tarpaulin\",\"quantity\":40,\"households\":40}],\"note\":\"Sample data: the photos are labelled placeholders, not photographs, and the receipts are rendered documents. Judge what the labels describe, and do not treat the placeholder style as editing or staging.\"}",
+      "usage": {
+        "inputTokens": 6486,
+        "outputTokens": 663
+      }
+    }
+  }
+}

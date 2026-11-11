@@ -1,0 +1,756 @@
+{
+  "eventKey": "remal-2024",
+  "amountReceived": {
+    "currency_code": "USD",
+    "value": "458.00"
+  },
+  "fundsReceivedAt": "2024-05-26T01:00:00.000Z",
+  "landfallAt": "2024-05-26T18:30:00.000Z",
+  "sample": true,
+  "partnerId": "partner-b",
+  "serviceArea": {
+    "name": "Patuakhali",
+    "lat": 22.36,
+    "lon": 90.33,
+    "radiusKm": 150,
+    "utcOffsetMinutes": 360
+  },
+  "photos": [
+    {
+      "id": "photo-1",
+      "caption": "Rice sacks handed out at Patuakhali",
+      "file": "photo-1.jpg"
+    },
+    {
+      "id": "photo-2",
+      "caption": "More rice handed out before the storm",
+      "file": "photo-2.jpg"
+    }
+  ],
+  "receipts": [
+    {
+      "id": "receipt-1",
+      "number": "CT-1188",
+      "vendor": "Coastal Traders",
+      "date": "2024-05-26",
+      "item": "rice sack",
+      "quantity": 60,
+      "total": 39000,
+      "currency": "BDT",
+      "file": "receipt-1.jpg"
+    },
+    {
+      "id": "receipt-2",
+      "number": "DS-2315",
+      "vendor": "Delta Supply",
+      "date": "2024-05-26",
+      "item": "tarpaulin",
+      "quantity": 40,
+      "total": 12000,
+      "currency": "BDT",
+      "file": "receipt-2.jpg"
+    }
+  ],
+  "distribution": [
+    {
+      "beneficiaryId": "PTK-0001",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0002",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0003",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0004",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0005",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0006",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0007",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0008",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0009",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0010",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0011",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0012",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0013",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0014",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0015",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0016",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0017",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0018",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0019",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0020",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0021",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0022",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0023",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0024",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0025",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0026",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0027",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0028",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0029",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0030",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0031",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0032",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0033",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0034",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0035",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0036",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0037",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0038",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0039",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0040",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0041",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0042",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0043",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0044",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0045",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0046",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0047",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0048",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0049",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0050",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0051",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0052",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0053",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0054",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0055",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0056",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0057",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0058",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0059",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0060",
+      "item": "rice sack",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0001",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0002",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0003",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0004",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0005",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0006",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0007",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0008",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0009",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0010",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0011",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0012",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0013",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0014",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0015",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0016",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0017",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0018",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0019",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0020",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0021",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0022",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0023",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0024",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0025",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0026",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0027",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0028",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0029",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0030",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0031",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0032",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0033",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0034",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0035",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0036",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0037",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0038",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0039",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    },
+    {
+      "beneficiaryId": "PTK-0040",
+      "item": "tarpaulin",
+      "quantity": 1,
+      "date": "2024-05-26",
+      "location": "Patuakhali"
+    }
+  ]
+}

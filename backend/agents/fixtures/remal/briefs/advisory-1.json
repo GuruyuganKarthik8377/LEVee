@@ -1,0 +1,176 @@
+{
+  "brief": {
+    "eventId": 1001064,
+    "eventName": "REMAL-24",
+    "asOf": "2024-05-25T12:00:00.000Z",
+    "mode": "replay",
+    "alertLevel": "Orange",
+    "windKmh": 102,
+    "landfall": {
+      "etaUtc": "2024-05-26T14:34:17.142Z",
+      "lat": 21.8,
+      "lon": 89.56,
+      "leadHours": 26.6,
+      "regionId": "bay-of-bengal-north"
+    },
+    "trackShiftKm": null,
+    "maxTrackShiftKm": null,
+    "confidence": 50,
+    "sourcesAgree": "mixed",
+    "summary": "A single forecast advisory projects Cyclone Remal (GDACS Orange, 102 km/h) to cross the northern Bay of Bengal coast near the Bangladesh–India border around 14:30 UTC on 26 May. With only one advisory, no river forecasts and news that calls the landing point unpredictable, the timing and location are plausible but not yet confirmed.",
+    "reasons": [
+      {
+        "text": "The only advisory takes the storm north through 21.5N 89.5E at 12:00 UTC on 26 May and inland to 24.0N 90.3E, implying landfall near 21.8N 89.56E about 27 hours ahead.",
+        "sources": [
+          {
+            "id": "gdacs-advisory-1",
+            "label": "GDACS advisory issued 2024-05-25T12:00:00.000Z",
+            "url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001064&episodeid=1"
+          }
+        ]
+      },
+      {
+        "text": "Because there is just one advisory, there is no track or timing shift to judge stability, so the landfall point and time could still move.",
+        "sources": [
+          {
+            "id": "gdacs-advisory-1",
+            "label": "GDACS advisory issued 2024-05-25T12:00:00.000Z",
+            "url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001064&episodeid=1"
+          }
+        ]
+      },
+      {
+        "text": "GDACS rates the event Orange with 102 km/h winds, which supports a damaging storm, but these are values reprocessed later, not necessarily what was shown at the time.",
+        "sources": [
+          {
+            "id": "gdacs-event",
+            "label": "GDACS report: REMAL-24",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001064&eventtype=TC"
+          }
+        ]
+      },
+      {
+        "text": "News independently reports a cyclone forming over the Bay of Bengal, but a later headline says agencies expected it to behave unpredictably about where it would land.",
+        "sources": [
+          {
+            "id": "news-1",
+            "label": "downtoearth: Cyclone Remal in making? Low-pressure area forms over Bay of Bengal",
+            "url": "https://www.downtoearth.org.in/news/climate-change/cyclone-remal-in-making-low-pressure-area-forms-over-bay-of-bengal-96284"
+          },
+          {
+            "id": "news-2",
+            "label": "downtoearth: Where will it land? Cyclone Remal may show unpredictable character, according to weather agencies",
+            "url": "https://www.downtoearth.org.in/news/climate-change/where-will-it-land-cyclone-remal-may-show-unpredictable-character-according-to-weather-agencies-96314"
+          }
+        ]
+      },
+      {
+        "text": "River gauges near the track show steady or falling readings through 24 May and have no forecasts in this replay, so they give no evidence about flooding from the storm.",
+        "sources": [
+          {
+            "id": "river-khulna",
+            "label": "Open-Meteo river discharge: Khulna",
+            "url": "https://flood-api.open-meteo.com/v1/flood?latitude=22.82&longitude=89.55&daily=river_discharge,river_discharge_median,river_discharge_min,river_discharge_max&start_date=2024-05-15&end_date=2024-05-26"
+          },
+          {
+            "id": "river-barisal",
+            "label": "Open-Meteo river discharge: Barisal",
+            "url": "https://flood-api.open-meteo.com/v1/flood?latitude=22.7&longitude=90.37&daily=river_discharge,river_discharge_median,river_discharge_min,river_discharge_max&start_date=2024-05-15&end_date=2024-05-26"
+          },
+          {
+            "id": "river-meghna-at-chandpur",
+            "label": "Open-Meteo river discharge: Meghna at Chandpur",
+            "url": "https://flood-api.open-meteo.com/v1/flood?latitude=23.23&longitude=90.65&daily=river_discharge,river_discharge_median,river_discharge_min,river_discharge_max&start_date=2024-05-15&end_date=2024-05-26"
+          },
+          {
+            "id": "river-hooghly-at-kolkata",
+            "label": "Open-Meteo river discharge: Hooghly at Kolkata",
+            "url": "https://flood-api.open-meteo.com/v1/flood?latitude=22.57&longitude=88.36&daily=river_discharge,river_discharge_median,river_discharge_min,river_discharge_max&start_date=2024-05-15&end_date=2024-05-26"
+          }
+        ]
+      }
+    ],
+    "exposed": [
+      {
+        "place": "Khulna area, southwest Bangladesh coast",
+        "why": "The forecast landfall point and the next track point lie close to Khulna's longitude.",
+        "sources": [
+          {
+            "id": "gdacs-advisory-1",
+            "label": "GDACS advisory issued 2024-05-25T12:00:00.000Z",
+            "url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001064&episodeid=1"
+          },
+          {
+            "id": "river-khulna",
+            "label": "Open-Meteo river discharge: Khulna",
+            "url": "https://flood-api.open-meteo.com/v1/flood?latitude=22.82&longitude=89.55&daily=river_discharge,river_discharge_median,river_discharge_min,river_discharge_max&start_date=2024-05-15&end_date=2024-05-26"
+          }
+        ]
+      },
+      {
+        "place": "Barisal area, south-central Bangladesh",
+        "why": "The track bends northeast toward 90E after landfall, near Barisal.",
+        "sources": [
+          {
+            "id": "gdacs-advisory-1",
+            "label": "GDACS advisory issued 2024-05-25T12:00:00.000Z",
+            "url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001064&episodeid=1"
+          },
+          {
+            "id": "river-barisal",
+            "label": "Open-Meteo river discharge: Barisal",
+            "url": "https://flood-api.open-meteo.com/v1/flood?latitude=22.7&longitude=90.37&daily=river_discharge,river_discharge_median,river_discharge_min,river_discharge_max&start_date=2024-05-15&end_date=2024-05-26"
+          }
+        ]
+      },
+      {
+        "place": "Meghna basin near Chandpur",
+        "why": "The last forecast point at 24.0N 90.3E carries the storm inland through central Bangladesh near this river.",
+        "sources": [
+          {
+            "id": "gdacs-advisory-1",
+            "label": "GDACS advisory issued 2024-05-25T12:00:00.000Z",
+            "url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001064&episodeid=1"
+          },
+          {
+            "id": "river-meghna-at-chandpur",
+            "label": "Open-Meteo river discharge: Meghna at Chandpur",
+            "url": "https://flood-api.open-meteo.com/v1/flood?latitude=23.23&longitude=90.65&daily=river_discharge,river_discharge_median,river_discharge_min,river_discharge_max&start_date=2024-05-15&end_date=2024-05-26"
+          }
+        ]
+      },
+      {
+        "place": "Kolkata and the Hooghly delta, West Bengal",
+        "why": "It lies west of the forecast landfall near the border, and India is listed among the affected countries.",
+        "sources": [
+          {
+            "id": "gdacs-event",
+            "label": "GDACS report: REMAL-24",
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001064&eventtype=TC"
+          },
+          {
+            "id": "river-hooghly-at-kolkata",
+            "label": "Open-Meteo river discharge: Hooghly at Kolkata",
+            "url": "https://flood-api.open-meteo.com/v1/flood?latitude=22.57&longitude=88.36&daily=river_discharge,river_discharge_median,river_discharge_min,river_discharge_max&start_date=2024-05-15&end_date=2024-05-26"
+          }
+        ]
+      }
+    ],
+    "caveats": [
+      "Replay of a past storm. GDACS last reprocessed this event on 2026-02-11, so its alert level and wind speed are final values, not necessarily what was shown at the time. Forecast tracks are as issued.",
+      "River forecasts as issued were not archived, so this replay has no river forecast: only readings from days already over."
+    ]
+  },
+  "audit": {
+    "agent": "sentinel",
+    "at": "2026-11-04T07:56:42.756Z",
+    "model": "claude-opus-5-5",
+    "messageId": "msg_011CghXidvtFHLNm4hWqAcWc",
+    "inputSha256": "27c206987e3e6389e6e1542f9da8bc8461089ecd7353d6d930eae8669de41c3a",
+    "input": "{\"asOf\":\"2024-05-25T12:00Z\",\"mode\":\"replay\",\"event\":{\"name\":\"REMAL-24\",\"alertLevel\":\"Orange\",\"windKmh\":102,\"countries\":[\"Bangladesh\",\"India\",\"Bhutan\"]},\"computedFacts\":{\"advisoryCount\":1,\"latestAdvisoryAt\":\"2024-05-25T12:00:00.000Z\",\"landfall\":{\"etaUtc\":\"2024-05-26T14:34:17.142Z\",\"lat\":21.8,\"lon\":89.56,\"leadHours\":26.6,\"regionId\":\"bay-of-bengal-north\"},\"trackShiftKm\":null,\"maxTrackShiftKm\":null,\"etaShiftHours\":null,\"newsCount\":2,\"riverForecasts\":[]},\"caveats\":[\"Replay of a past storm. GDACS last reprocessed this event on 2026-02-11, so its alert level and wind speed are final values, not necessarily what was shown at the time. Forecast tracks are as issued.\",\"River forecasts as issued were not archived, so this replay has no river forecast: only readings from days already over.\"],\"advisoriesTotal\":1,\"advisories\":[{\"id\":\"gdacs-advisory-1\",\"issuedAt\":\"2024-05-25T12:00Z\",\"forecast\":[[\"2024-05-26T00:00Z\",20.1,89.4],[\"2024-05-26T12:00Z\",21.5,89.5],[\"2024-05-27T00:00Z\",22.9,89.8],[\"2024-05-27T12:00Z\",24,90.3]]}],\"rivers\":[{\"id\":\"river-khulna\",\"name\":\"Khulna\",\"recent\":[[\"2024-05-22\",3.16],[\"2024-05-23\",3.24],[\"2024-05-24\",3.02]],\"forecast\":[]},{\"id\":\"river-barisal\",\"name\":\"Barisal\",\"recent\":[[\"2024-05-22\",0.17],[\"2024-05-23\",0.14],[\"2024-05-24\",0.11]],\"forecast\":[]},{\"id\":\"river-meghna-at-chandpur\",\"name\":\"Meghna at Chandpur\",\"recent\":[[\"2024-05-22\",38.81],[\"2024-05-23\",36.41],[\"2024-05-24\",34.89]],\"forecast\":[]},{\"id\":\"river-hooghly-at-kolkata\",\"name\":\"Hooghly at Kolkata\",\"recent\":[[\"2024-05-22\",11.39],[\"2024-05-23\",8.35],[\"2024-05-24\",3.59]],\"forecast\":[]}],\"news\":{\"totalArticles\":2,\"shown\":2,\"items\":[{\"id\":\"news-1\",\"at\":\"2024-05-23T07:31Z\",\"source\":\"downtoearth\",\"title\":\"Cyclone Remal in making? Low-pressure area forms over Bay of Bengal\"},{\"id\":\"news-2\",\"at\":\"2024-05-24T07:06Z\",\"source\":\"downtoearth\",\"title\":\"Where will it land? Cyclone Remal may show unpredictable character, according to weather agencies\"}]}}",
+    "usage": {
+      "inputTokens": 2560,
+      "outputTokens": 1345
+    }
+  }
+}

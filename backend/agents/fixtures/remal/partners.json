@@ -1,0 +1,42 @@
+[
+  {
+    "id": "partner-a",
+    "name": "Partner A",
+    "regionId": "bay-of-bengal-north",
+    "area": {
+      "name": "Mongla, Bagerhat",
+      "lat": 22.49,
+      "lon": 89.6
+    },
+    "earlyActions": [
+      "Evacuation transport",
+      "Food and water"
+    ],
+    "households": 1200,
+    "capacityUsd": 2000,
+    "committedUsd": 0,
+    "sample": true,
+    "radiusKm": 150,
+    "utcOffsetMinutes": 360
+  },
+  {
+    "id": "partner-b",
+    "name": "Partner B",
+    "regionId": "bay-of-bengal-north",
+    "area": {
+      "name": "Patuakhali",
+      "lat": 22.36,
+      "lon": 90.33
+    },
+    "earlyActions": [
+      "Food and water",
+      "Securing homes"
+    ],
+    "households": 800,
+    "capacityUsd": 1500,
+    "committedUsd": 0,
+    "sample": true,
+    "radiusKm": 150,
+    "utcOffsetMinutes": 360
+  }
+]

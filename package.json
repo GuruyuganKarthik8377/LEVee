@@ -1,0 +1,14 @@
+{
+  "name": "levee",
+  "private": true,
+  "description": "LEVee: pays local responders through PayPal before a hurricane lands. AI advises, fixed rules decide, PayPal pays.",
+  "scripts": {
+    "setup": "npm --prefix backend/payments install && npm --prefix backend/policy install && npm --prefix backend/agents install && npm --prefix frontend install",
+    "check": "npm run check:backend && npm run check:frontend",
+    "check:backend": "npm --prefix backend/payments run typecheck && npm --prefix backend/payments test && npm --prefix backend/policy run typecheck && npm --prefix backend/policy test && npm --prefix backend/agents run typecheck && npm --prefix backend/agents test",
+    "check:frontend": "cd frontend && npx tsc --noEmit && npm run lint && node --test src/server/*.test.ts src/components/pledge/*.test.ts",
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "helene": "npm --prefix backend/agents run helene --"
+  }
+}

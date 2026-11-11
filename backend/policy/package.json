@@ -1,0 +1,14 @@
+{
+  "name": "levee-policy",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.ts",
+    "typecheck": "tsc",
+    "remal": "node --env-file=../payments/.env scripts/remal.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^5.9.3"
+  }
+}
